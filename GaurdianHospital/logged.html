@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="front.css"> -->
+    <style>
+     @keyframes slide{
+       from{
+         margin-left: 0px;
+       }
+       to{
+         margin-left: 60%;
+       }
+     }
+      #emergency{
+        display: inline;
+        font-size: 30px;
+        font-weight: bolder;
+       color: red;
+        animation-name: slide;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+       }
+       
+     
+    </style>
+</head>
+<body>
+   
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div style="justify-content: space-between;" class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" style="padding-left: 40px; padding-right: 180px;color: white;font-size: large;" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="padding-left: 40px; padding-right: 180px;color: white;"  href="#chooseUs">Key Features</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" style="padding-left: 40px; padding-right: 180px;color: white;"  href="#milestone"  >
+               MileStone
+              </a>
+             
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link" style="padding-left: 40px; padding-right: 180px;color: white;"  href="#contactUs"  >
+                  Contact Details                </a>
+               
+              </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><a href="https://www.google.co.in/"> Search</a></button>
+          </form>
+        </div>
+      </nav>
+     
+      <div  id="emergency">
+          Emergency No: +91-9343725322,+91-8436437743
+      </div>
+      <div class="row" >
+     <div class="col-4"></div>
+     <div col-4> <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8a7c0fa9-ff03-485e-a4ac-a086da29adfc/d5m46tw-da5928be-7c74-4744-9cf9-5e96753702cc.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzhhN2MwZmE5LWZmMDMtNDg1ZS1hNGFjLWEwODZkYTI5YWRmY1wvZDVtNDZ0dy1kYTU5MjhiZS03Yzc0LTQ3NDQtOWNmOS01ZTk2NzUzNzAyY2MucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.YHKCMuN9DrBzFnTB4FPbE2ttIBD-2hFYKN6YGEvlx3A"></div>
+      <div class="col-4"></div>
+     
+    </div>
+<div class="row" style="padding-top: 190px;">
+   <div class="col-6">
+  <!-- <img  style="height: 650px;" id="id2" src="/home/deepharshsri/Desktop/0-880_healthy-banner-happy-indian-family-images-png.png"> -->
+  <div class="container-lg-12 ">
+    <!-- <h2>Activate Carousel with JavaScript</h2> -->
+    <div id="myCarousel" class="carousel slide">
+    
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li class="item1 active"></li>
+        <li class="item2"></li>
+        <li class="item3"></li>
+      </ul>
+      
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item active" style="height: fit-content;">
+          <img src="https://www.shubhamhospitals.com/banner/img_3.jpg" alt="Lossd Angeles" width="1100" height="500">
+        </div>
+        <div class="carousel-item">
+          <img src="https://www.shubhamhospitals.com/banner/img_6.jpg" alt="Chicago" width="1100" height="500">
+        </div>
+        <div class="carousel-item">
+          <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202004/2020-04-07T091008Z_2046371056__0-770x433.png?neW3Wp2SVjoh3P17b96RYg.3dkzj4k5n" alt="New York" width="1100" height="500">
+        </div>
+        
+      </div>
+      
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#myCarousel">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+    </div>
+    
+    <script>
+    $(document).ready(function(){
+      // Activate Carousel
+      $("#myCarousel").carousel();
+        
+      // Enable Carousel Indicators
+      $(".item1").click(function(){
+        $("#myCarousel").carousel(0);
+      });
+      $(".item2").click(function(){
+        $("#myCarousel").carousel(1);
+      });
+      $(".item3").click(function(){
+        $("#myCarousel").carousel(2);
+      });
+        
+      // Enable Carousel Controls
+      $(".carousel-control-prev").click(function(){
+        $("#myCarousel").carousel("prev");
+      });
+      $(".carousel-control-next").click(function(){
+        $("#myCarousel").carousel("next");
+      });
+    });
+    </script>
+  </div>
+
+
+<div class=" container col-3" style="border: 2px solid black; border-radius: 5%;">
+
+    <form>
+        
+        <h3 align="center" style="color: green;font-weight: bold; padding-top: 10px;" > Request An Appointmnet</h3>
+   <br>
+   <br>
+
+            <div class="row">
+              <div class="col">
+                  <label>First Name</label>
+                <input type="text" class="form-control" placeholder="First name">
+              </div>
+              <div class="col">
+                <label>Last Name</label>
+
+                <input type="text" class="form-control" placeholder="Last name">
+              </div>
+            </div>
+   <br>
+       
+        
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="form-group">
+            <label >Date Of Birth</label>
+            <input type="date" class="form-control" >
+          </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">Gender</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option>
+           
+          </select>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlSelect1"></label>Specialty Doctors</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+                <option>--None--</option>
+              <option>Cardiologists</option>
+              <option>Neurologists</option>
+              <option>Psychiatrists</option>
+              <option>Endocrinologists</option>
+              <option>Ophthalmologists</option>
+              <option>Dermatologists</option>
+            </select>
+          </div>
+  
+          <br>
+
+        <div class="form-group">
+            <label for="exampleFormControlFile1">Previous Reports</label>
+            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+          </div>
+          <br>
+          
+          <br>
+
+         
+              <div class="container " align="center">
+          <button type="button" style="margin: 10px;" class="btn btn-lg btn-danger" data-toggle="popover" title="Alert" data-content="Be Sure That The Detail's Provided By You Must Be Correct!">Submit</button>         
+              </div>
+         <script>
+    $(document).ready(function(){
+    $('[data-toggle="popover"]').popover();   
+});
+                </script>
+      </form>
+</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+ 
+<div class="container" style="padding-top: 160px;">
+    <section >
+        <h1 style="color: green; font-size: 60px;font-weight: bolder;" align="center" id="chooseUs" >Why choose us?</h1>
+        <ul>
+            <br>
+            <br>
+            <br>
+
+            <li style="font-size: 30px;">Experienced doctors backed by highly skilled paramedics</li>
+            <li style="font-size: 30px;">NABH certified hospitals</li>
+            <li style="font-size: 30px;">Best in class medical services</li>
+            <li style="font-size: 30px;">State of the art medical technology</li>
+    
+        </ul>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <br>
+    <h1 align="center" id="milestone" style="color: green; font-size: 60px; font-weight: bolder;" >MILESTONES</h1>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <ul>
+        <li style="font-size: 30px;">2012-12	Last 2½ years, Guardian Hospital is famous as no. 1 center for complicated heart surgeries. It was approx. 4,700 patients from East Uttar Pradesh, Bihar, Jharkhand, Madhya Pradesh, Chhattisgarh, etc. get benefit in heart surgeries.</li>
+    <li style="font-size: 30px;">2012-09	In guidelines of National AIDS Control Organisation (NACO) & Ministry of Health, Guardian Banaras Heart Component Blood Bank started in Varanasi. We also have Apheresis machine. The capacity of Blood Bank is 600 units.</li>
+<li style="font-size: 30px;">2012-07	Eight year old baby, when come to emergency department of Guardian, at that time she was between life & death. Her heart was pressured by approx 750ml fluid, liver, kidney malfuctioning & problem in breathing. Surgery team of Dr. Sumit Narang make emergency operation called Cardiac tamponade opeartion.</li>
+<li style="font-size: 30px;">2012-06	A patient of heart failure who lives in Bhadohi, get back his life by the heart surgery team of Dr. Sumit Narang. Patient was suffering from heart attack, hole in heart & major part of heart was not working.</li>
+<li style="font-size: 30px;">2012-05	In comparision, Open Heart Surgery done less than 50% cost of metro cities. Relief to people of poorvanchal, within 12hrs of heart attack, blocked nervers will open.</li>
+<li style="font-size: 30px;">2011-12	Very first time Special Fracture Fixation Octopus Joint used for Joint Replacement.</li>
+<li style="font-size: 30px;" >2011-12	Past two years in Department of Cardio-Vascular Surgery, many heart surgeries done like Heart Valve Replacement, Peadiatric Heart Surgery, Aneurysm Repair, etc. the major was Beating Heart Surgery. Till now 3,000 Angiography, 478 Angioplasty and 312 Pacemaker done. More than 125 patients get well by joint replacement.</li>
+<li style="font-size: 30px;">2011-12	Very first time Special Fracture Fixation Octopus Joint used for Joint Replacement.</li>
+<li style="font-size: 30px;">2011-11	Started IVF in IPSA Infertility Clinic of Guardian Hospital near Nagar Nigam, Sigra, Varanasi.</li>
+<li style="font-size: 30px;">2011-10	Health Camp organised by 'Hindustan' newspaper, in association with Guardian Hospital, for flooded area Bajardeeha & Saraiya in Varanasi.</li>
+<li style="font-size: 30px;">2011-09	The Heart Care Camp, titled Dil-Ko-Jaan, organised by GuardianHospital & The Times of India.com, in association with Red FM.</li>
+<li style="font-size: 30px;">2011-09	First in poorvanchal, Heart Valve Repair Surgery started.</li>
+<li style="font-size: 30px;">2011-09	26th Eye Donation Camp oraganised by Guardian Hospital & Eye Bank Society</li>.
+<li style="font-size: 30px;">2011-06	The mega blood donation camp, titled A Drop to Life, jointly organised by The Times of India.com and Shubham Hospital, in association with the IMA, Varanasi branch and Red FM.</li>
+<li style="font-size: 30px;">2009-08	Started Advanced Computer Navigation based Joint Replacement Operation Theatre (OT) inaugrated by Dr. Sudhir Reddy.</li>
+<li style="font-size: 30px;">2009-02	Started Cath Lab. inaugrated by renowned cardiac surgeon Prof. P. Venugopal (Ex-Director AIMS).</li>
+    </ul>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<section class="container">
+    <h1 style="color: green; font-weight: bolder; font-size: 60px; padding-top: 60px;" align="center">Key Specialities</h1>
+        <p style="font-size:40px">We always strive to provide the best possible medical treatment to our patient aiming to achieve the highest possible success rate.</p>
+   
+ </section><br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+
+<div class="container"  id="contactUs">
+    <h1 style="text-align:center;font-size: 60px;font-weight: bolder; color: green;" >Contact_Us</h1>
+ <div class="row" style="padding-top: 70px; padding-bottom: 100px;">
+     <div class="col-3">
+        <h2 style="font-size:30px;font-weight: bold;">Via Call</h2>
+         <div style="font-size: 20px;">
+            1-877-930-7483
+            1-604-637-0780 
+         </div>
+      
+         
+     </div>
+     <div class="col-5">
+        <h2 style="font-size:30px;font-weight: bold;">Via Email</h2>
+         <div style="font-size: 20px;">
+           guardianhospital@gmail.com
+           deepharshsri.98@gmail.com
+         
+
+         </div>
+      
+         
+     </div><div class="col-4">
+        <h2 style="font-size:30px;font-weight: bold;">Via Fax</h2>
+         <div style="font-size: 20px;">
+            000-800-100-4104
+            <br>
+            info@efax.co.in
+         </div>
+      
+         
+     </div>
+ </div>
+   
+    
+
+</div>
+
+</body>
+</html>
